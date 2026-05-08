@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+.lo-wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0f2fe 0%, #f0fdf4 100%);
+  font-family: 'Nunito', sans-serif;
+  padding: 20px;
+}
+
+.lo-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(59, 130, 246, 0.12);
+  padding: 52px 48px 44px;
+  max-width: 440px;
+  width: 100%;
+  text-align: center;
+  animation: slideUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.lo-emoji {
+  font-size: 72px;
+  line-height: 1;
+  display: inline-block;
+  margin-bottom: 20px;
+  transition: opacity 0.25s ease;
+  animation: bounceIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.3s both,
+             sway 3s ease-in-out 1.2s infinite;
+}
+
+@keyframes bounceIn {
+  0%   { opacity: 0; transform: scale(0.3) rotate(-12deg); }
+  60%  { opacity: 1; transform: scale(1.12) rotate(4deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-4deg); }
+  50%       { transform: rotate(4deg); }
+}
+
+.lo-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 0 0 10px;
+}
+
+.lo-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #64748b;
+  margin: 0 0 36px;
+}
+
+.lo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #3b82f6;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(59, 130, 246, 0.35);
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+
+.lo-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 28px rgba(59, 130, 246, 0.42);
+}
+
+.lo-btn:active { transform: scale(0.97); }
+
+.lo-btn svg { transition: transform 0.2s; }
+.lo-btn:hover svg { transform: translateX(3px); }
+
+@media (max-width: 480px) {
+  .lo-card { padding: 40px 28px 36px; }
+  .lo-emoji { font-size: 60px; }
+  .lo-title { font-size: 1.3rem; }
+  .lo-btn { padding: 13px 24px; font-size: 0.95rem; }
+}

@@ -1,0 +1,61 @@
+{
+  "cards": [
+    {
+      "title": "Pick up from where you left off",
+      "products": [
+        { "name": "Lapcare D-lite Plus", "image": "/white-keyboard.jpg" },
+        { "name": "Lapcare D-lite Plus", "image": "/black-keyboard.jpg" },
+        { "name": "Dell KB216 Wired", "image": "/blackkeyboard1.jpg" },
+        { "name": "Lapcare D-lite Plus", "image": "/blackkeyboard2.jpg" }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "title": "Continue Shopping for",
+      "products": [
+        { "name": "Mic 1", "image": "/mic1.jpg" },
+        { "name": "Mic 2", "image": "/mic2.jpg" },
+        { "name": "Mic 3", "image": "/mic3.jpg" },
+        { "name": "Mic 4", "image": "/mic4.jpg" }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "title": "Deals related to items you've saved",
+      "products": [
+        { "name": "Product 1", "image": "/pro1.jpg" },
+        { "name": "Product 2", "image": "/pro2.jpg" },
+        { "name": "Product 3", "image": "/pro3.jpg" },
+        { "name": "Product 4", "image": "/pro4.jpg" }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "title": "Up to 60% off | Footwear & handbags",
+      "products": [
+        { "name": "Sport Shoes", "image": "/Sport Shoes.jpg" },
+        { "name": "Formal Shoes", "image": "/Formal Shes.jpg" },
+        { "name": "High Heels", "image": "/high heels.jpg" },
+        { "name": "Hand Bags", "image": "/hand bags.jpg" }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "title": "Up to 75% Off | Headphones",
+      "products": [
+        { "name": "Headphone", "image": "/earpod.jpg" }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "title": "Bulk order discounts + Up to 18% GST savings",
+      "products": [
+        { "name": "Up to 45% off | Laptops", "image": "/Laptops_186_116_10._SY116_CB777673831_.jpg" },
+        { "name": "Up to 60% off | Kitchen Appliances", "image": "/KitchenAppliances_186_116_10._SY116_CB777673831_.jpg" },
+        { "name": "Min 50% off | Office Chairs", "image": "/OfficeChairs_186_116_10._SY116_CB777673831_.jpg" },
+        { "name": "GST Registration", "image": "/ABdelivery_186_116._SY116_CB776314701_.jpg" }
+      ],
+      "cta": "See more.."
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "productPreview": {
+    "id": 101,
+    "name": "Cushions & Pillow Covers",
+    "brand": "HomeNest Collections",
+    "image": "/pr1.png",
+    "color": "#E8D5C4",
+    "rating": 4,
+    "price": 499,
+    "originalPrice": 799,
+    "emi": "Buy Now Pay Later!",
+    "specs": [
+      { "subHead": "Material", "specText": "Premium poly-cotton blend with soft-touch microfiber finish" },
+      { "subHead": "Fabric Type", "specText": "Breathable, wrinkle-resistant, and fade-resistant woven fabric" },
+      { "subHead": "Sizes Available", "specText": "16 x 16, 18 x 18, 20 x 20 inches" },
+      { "subHead": "Fill Type", "specText": "Hollow fibre fill — medium firmness, retains shape after use" },
+      { "subHead": "Closure", "specText": "Concealed zipper with anti-snag slider for easy removal" },
+      { "subHead": "Weight", "specText": "Approximately 250g per cover (varies by size)" },
+      { "subHead": "Care Instructions", "specText": "Machine washable at 30°C, do not tumble dry, cool iron only" },
+      { "subHead": "Pack Contents", "specText": "1 cushion cover (insert/filler not included)" },
+      { "subHead": "Country of Origin", "specText": "Made in India" }
+    ]
+  },
+  "cards": [
+    {
+      "type": "card",
+      "title": "Pick up from where you left off",
+      "products": [
+        {
+          "id": 1,
+          "name": "Lapcare D-lite Plus Wireless Keyboard",
+          "image": "/white-keyboard.jpg",
+          "color": "#F5F0E8",
+          "rating": 4,
+          "price": 699,
+          "originalPrice": 1199,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "2.4GHz wireless, plug-and-play USB receiver" },
+            { "subHead": "Battery", "specText": "2 x AAA batteries, up to 12 months battery life" },
+            { "subHead": "Key Type", "specText": "Membrane keys, quiet keystroke design" },
+            { "subHead": "Compatibility", "specText": "Windows 7/8/10/11, Mac OS" },
+            { "subHead": "Colour", "specText": "White" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Lapcare D-lite Plus Wireless Keyboard",
+          "image": "/black-keyboard.jpg",
+          "color": "#2C2C2C",
+          "rating": 3,
+          "price": 699,
+          "originalPrice": 1199,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "2.4GHz wireless, plug-and-play USB receiver" },
+            { "subHead": "Battery", "specText": "2 x AAA batteries, up to 12 months battery life" },
+            { "subHead": "Key Type", "specText": "Membrane keys, quiet keystroke design" },
+            { "subHead": "Compatibility", "specText": "Windows 7/8/10/11, Mac OS" },
+            { "subHead": "Colour", "specText": "Black" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Dell KB216 Wired USB Keyboard",
+          "image": "/blackkeyboard1.jpg",
+          "color": "#1A3A5C",
+          "rating": 5,
+          "price": 549,
+          "originalPrice": 799,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Wired USB, plug-and-play, no driver required" },
+            { "subHead": "Key Type", "specText": "Spill-resistant membrane keyboard" },
+            { "subHead": "Cable Length", "specText": "1.8 metres" },
+            { "subHead": "Compatibility", "specText": "Windows 10, 8.1, 7 and Ubuntu Linux" },
+            { "subHead": "Colour", "specText": "Black" },
+            { "subHead": "Warranty", "specText": "3 years manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Lapcare D-lite Plus Wireless Keyboard",
+          "image": "/blackkeyboard2.jpg",
+          "color": "#3D2B1F",
+          "rating": 4,
+          "price": 699,
+          "originalPrice": 1199,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "2.4GHz wireless, plug-and-play USB receiver" },
+            { "subHead": "Battery", "specText": "2 x AAA batteries, up to 12 months battery life" },
+            { "subHead": "Key Type", "specText": "Membrane keys, quiet keystroke design" },
+            { "subHead": "Compatibility", "specText": "Windows 7/8/10/11, Mac OS" },
+            { "subHead": "Colour", "specText": "Black (Variant 2)" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "type": "card",
+      "title": "Continue Shopping for",
+      "products": [
+        {
+          "id": 5,
+          "name": "Condenser Studio Microphone",
+          "image": "/mic1.jpg",
+          "color": "#C0392B",
+          "rating": 4,
+          "price": 1299,
+          "originalPrice": 2499,
+          "specs": [
+            { "subHead": "Type", "specText": "Condenser microphone, cardioid polar pattern" },
+            { "subHead": "Frequency Response", "specText": "20Hz – 20kHz" },
+            { "subHead": "Connectivity", "specText": "3.5mm audio jack" },
+            { "subHead": "Use Case", "specText": "Podcasting, streaming, home studio recording" },
+            { "subHead": "Mount", "specText": "Includes desk stand and shock mount" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "USB Plug & Play Desktop Microphone",
+          "image": "/mic2.jpg",
+          "color": "#5D6D7E",
+          "rating": 3,
+          "price": 899,
+          "originalPrice": 1499,
+          "specs": [
+            { "subHead": "Type", "specText": "Omnidirectional USB microphone" },
+            { "subHead": "Frequency Response", "specText": "100Hz – 16kHz" },
+            { "subHead": "Connectivity", "specText": "USB-A, plug-and-play, no driver required" },
+            { "subHead": "Use Case", "specText": "Video calls, online meetings, basic recording" },
+            { "subHead": "Cable Length", "specText": "1.5 metres" },
+            { "subHead": "Warranty", "specText": "6 months warranty" }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Professional XLR Vocal Microphone",
+          "image": "/mic3.jpg",
+          "color": "#1C1C1C",
+          "rating": 5,
+          "price": 3499,
+          "originalPrice": 5999,
+          "specs": [
+            { "subHead": "Type", "specText": "Dynamic microphone, supercardioid polar pattern" },
+            { "subHead": "Frequency Response", "specText": "50Hz – 18kHz" },
+            { "subHead": "Connectivity", "specText": "XLR output, requires audio interface or mixer" },
+            { "subHead": "Use Case", "specText": "Live performance, professional studio vocals" },
+            { "subHead": "Build", "specText": "All-metal body with integrated pop filter" },
+            { "subHead": "Warranty", "specText": "2 years manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Clip-On Lavalier Microphone",
+          "image": "/mic4.jpg",
+          "color": "#D4AC0D",
+          "rating": 4,
+          "price": 499,
+          "originalPrice": 999,
+          "specs": [
+            { "subHead": "Type", "specText": "Omnidirectional lavalier / lapel microphone" },
+            { "subHead": "Frequency Response", "specText": "65Hz – 18kHz" },
+            { "subHead": "Connectivity", "specText": "3.5mm TRRS jack, compatible with phone and laptop" },
+            { "subHead": "Use Case", "specText": "Interviews, vlogging, presentations" },
+            { "subHead": "Cable Length", "specText": "1.2 metres" },
+            { "subHead": "Warranty", "specText": "6 months warranty" }
+          ]
+        }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "type": "card",
+      "title": "Deals related to items you've saved",
+      "products": [
+        {
+          "id": 9,
+          "name": "Wireless Bluetooth Headphones",
+          "image": "/pro1.jpg",
+          "color": "#2E86AB",
+          "rating": 4,
+          "price": 1499,
+          "originalPrice": 2999,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Bluetooth 5.0, range up to 10 metres" },
+            { "subHead": "Battery Life", "specText": "Up to 30 hours playback on single charge" },
+            { "subHead": "Driver Size", "specText": "40mm dynamic drivers" },
+            { "subHead": "Microphone", "specText": "Built-in mic for calls and voice assistant" },
+            { "subHead": "Foldable", "specText": "Yes, foldable design for easy carrying" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Noise Cancelling Over-Ear Headphones",
+          "image": "/pro2.jpg",
+          "color": "#1B4F72",
+          "rating": 3,
+          "price": 2999,
+          "originalPrice": 5499,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Bluetooth 5.1 + wired 3.5mm aux" },
+            { "subHead": "Noise Cancellation", "specText": "Active Noise Cancellation (ANC) with 3 modes" },
+            { "subHead": "Battery Life", "specText": "Up to 40 hours with ANC off" },
+            { "subHead": "Driver Size", "specText": "45mm dynamic drivers" },
+            { "subHead": "Charging", "specText": "USB-C fast charge, 10 min = 3 hrs playback" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Gaming Headset with RGB",
+          "image": "/pro3.jpg",
+          "color": "#7D3C98",
+          "rating": 5,
+          "price": 1999,
+          "originalPrice": 3499,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Wired USB + 3.5mm dual jack" },
+            { "subHead": "Driver Size", "specText": "50mm neodymium drivers" },
+            { "subHead": "Surround Sound", "specText": "7.1 virtual surround sound" },
+            { "subHead": "Microphone", "specText": "Detachable flexible boom mic with noise filter" },
+            { "subHead": "Lighting", "specText": "RGB ear cup lighting with 7 colour modes" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "True Wireless Earbuds",
+          "image": "/pro4.jpg",
+          "color": "#117A65",
+          "rating": 4,
+          "price": 1299,
+          "originalPrice": 2499,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Bluetooth 5.2, low latency mode" },
+            { "subHead": "Battery Life", "specText": "6 hrs earbuds + 24 hrs charging case" },
+            { "subHead": "Driver Size", "specText": "10mm dynamic drivers" },
+            { "subHead": "Water Resistance", "specText": "IPX5 sweat and water resistant" },
+            { "subHead": "Charging", "specText": "USB-C, supports wireless charging case" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "type": "card",
+      "title": "Pick up from where you left off",
+      "products": [
+        {
+          "id": 13,
+          "name": "Cushions & Pillow Cover",
+          "image": "/Cusions.jpg",
+          "color": "#F0B27A",
+          "rating": 5,
+          "price": 499,
+          "originalPrice": 799,
+          "specs": [
+            { "subHead": "Material", "specText": "Premium poly-cotton blend with microfiber finish" },
+            { "subHead": "Fabric Type", "specText": "Breathable, wrinkle-resistant woven fabric" },
+            { "subHead": "Sizes Available", "specText": "16 x 16, 18 x 18, 20 x 20 inches" },
+            { "subHead": "Closure", "specText": "Concealed zipper" },
+            { "subHead": "Care", "specText": "Machine washable at 30°C" },
+            { "subHead": "Warranty", "specText": "No warranty applicable" }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Astronaut Desk Decoration Figure",
+          "image": "/AStronot.jpg",
+          "color": "#AED6F1",
+          "rating": 4,
+          "price": 349,
+          "originalPrice": 599,
+          "specs": [
+            { "subHead": "Material", "specText": "High-quality ABS plastic with matte finish" },
+            { "subHead": "Height", "specText": "Approximately 15 cm" },
+            { "subHead": "Use", "specText": "Decorative figurine for desk, shelf, or gifting" },
+            { "subHead": "LED", "specText": "Built-in warm LED base (batteries included)" },
+            { "subHead": "Weight", "specText": "Approximately 120g" },
+            { "subHead": "Warranty", "specText": "No warranty applicable" }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Home Storage Organiser Box",
+          "image": "/Homestorage.jpg",
+          "color": "#A9CCE3",
+          "rating": 3,
+          "price": 399,
+          "originalPrice": 699,
+          "specs": [
+            { "subHead": "Material", "specText": "Non-woven fabric with cardboard frame" },
+            { "subHead": "Dimensions", "specText": "30 x 20 x 15 cm (L x W x H)" },
+            { "subHead": "Capacity", "specText": "Approximately 9 litres" },
+            { "subHead": "Foldable", "specText": "Yes, collapsible when not in use" },
+            { "subHead": "Use", "specText": "Clothes, toys, stationery, accessories" },
+            { "subHead": "Warranty", "specText": "No warranty applicable" }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Decorative LED String Lights",
+          "image": "/Lights.jpg",
+          "color": "#F9E79F",
+          "rating": 4,
+          "price": 249,
+          "originalPrice": 499,
+          "specs": [
+            { "subHead": "LED Count", "specText": "40 LED bulbs" },
+            { "subHead": "Wire Length", "specText": "4 metres total length" },
+            { "subHead": "Power", "specText": "USB powered, 5V DC" },
+            { "subHead": "Light Modes", "specText": "8 modes including steady, flash, and fade" },
+            { "subHead": "Use", "specText": "Bedroom, balcony, party, festive decoration" },
+            { "subHead": "Warranty", "specText": "6 months warranty" }
+          ]
+        }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "type": "card",
+      "title": "Up to 60% off | Footwear & handbags",
+      "products": [
+        {
+          "id": 17,
+          "name": "Running Sports Shoes",
+          "image": "/Sport Shoes.jpg",
+          "color": "#E74C3C",
+          "rating": 4,
+          "price": 999,
+          "originalPrice": 2499,
+          "specs": [
+            { "subHead": "Upper Material", "specText": "Breathable mesh with synthetic overlays" },
+            { "subHead": "Sole", "specText": "Lightweight EVA foam midsole with rubber outsole" },
+            { "subHead": "Closure", "specText": "Lace-up" },
+            { "subHead": "Sizes Available", "specText": "UK 6 to UK 11" },
+            { "subHead": "Use", "specText": "Running, gym, casual daily wear" },
+            { "subHead": "Warranty", "specText": "3 months warranty against manufacturing defects" }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Men's Formal Oxford Shoes",
+          "image": "/Formal Shes.jpg",
+          "color": "#5D4037",
+          "rating": 3,
+          "price": 1299,
+          "originalPrice": 2999,
+          "specs": [
+            { "subHead": "Upper Material", "specText": "Genuine leather with polished finish" },
+            { "subHead": "Sole", "specText": "Textured TPR sole for grip" },
+            { "subHead": "Closure", "specText": "Lace-up Oxford style" },
+            { "subHead": "Sizes Available", "specText": "UK 6 to UK 10" },
+            { "subHead": "Use", "specText": "Office, formal events, business meetings" },
+            { "subHead": "Warranty", "specText": "6 months warranty" }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Women's Block Heel Sandals",
+          "image": "/high heels.jpg",
+          "color": "#E91E8C",
+          "rating": 4,
+          "price": 799,
+          "originalPrice": 1799,
+          "specs": [
+            { "subHead": "Upper Material", "specText": "Faux leather with ankle strap" },
+            { "subHead": "Heel Height", "specText": "4 inches block heel" },
+            { "subHead": "Sole", "specText": "Anti-skid rubber outsole" },
+            { "subHead": "Sizes Available", "specText": "UK 3 to UK 8" },
+            { "subHead": "Use", "specText": "Party wear, casual outings, festive occasions" },
+            { "subHead": "Warranty", "specText": "3 months warranty" }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Women's Tote Handbag",
+          "image": "/hand bags.jpg",
+          "color": "#C0392B",
+          "rating": 5,
+          "price": 899,
+          "originalPrice": 1999,
+          "specs": [
+            { "subHead": "Material", "specText": "Vegan leather with fabric lining" },
+            { "subHead": "Dimensions", "specText": "35 x 28 x 12 cm (L x H x W)" },
+            { "subHead": "Compartments", "specText": "1 main zip compartment, 2 inner pockets, 1 zip pocket" },
+            { "subHead": "Strap", "specText": "Dual handles + detachable shoulder strap" },
+            { "subHead": "Closure", "specText": "Magnetic snap closure" },
+            { "subHead": "Warranty", "specText": "6 months warranty" }
+          ]
+        }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "type": "card",
+      "title": "Deals related to items you've saved",
+      "products": [
+        {
+          "id": 21,
+          "name": "Wireless Bluetooth Headphones",
+          "image": "/pro1.jpg",
+          "color": "#2980B9",
+          "rating": 4,
+          "price": 1499,
+          "originalPrice": 2999,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Bluetooth 5.0, range up to 10 metres" },
+            { "subHead": "Battery Life", "specText": "Up to 30 hours playback on single charge" },
+            { "subHead": "Driver Size", "specText": "40mm dynamic drivers" },
+            { "subHead": "Microphone", "specText": "Built-in mic for calls and voice assistant" },
+            { "subHead": "Foldable", "specText": "Yes, foldable design for easy carrying" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Noise Cancelling Over-Ear Headphones",
+          "image": "/pro2.jpg",
+          "color": "#154360",
+          "rating": 3,
+          "price": 2999,
+          "originalPrice": 5499,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Bluetooth 5.1 + wired 3.5mm aux" },
+            { "subHead": "Noise Cancellation", "specText": "Active Noise Cancellation (ANC) with 3 modes" },
+            { "subHead": "Battery Life", "specText": "Up to 40 hours with ANC off" },
+            { "subHead": "Driver Size", "specText": "45mm dynamic drivers" },
+            { "subHead": "Charging", "specText": "USB-C fast charge, 10 min = 3 hrs playback" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Gaming Headset with RGB",
+          "image": "/pro3.jpg",
+          "color": "#6C3483",
+          "rating": 5,
+          "price": 1999,
+          "originalPrice": 3499,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Wired USB + 3.5mm dual jack" },
+            { "subHead": "Driver Size", "specText": "50mm neodymium drivers" },
+            { "subHead": "Surround Sound", "specText": "7.1 virtual surround sound" },
+            { "subHead": "Microphone", "specText": "Detachable flexible boom mic with noise filter" },
+            { "subHead": "Lighting", "specText": "RGB ear cup lighting with 7 colour modes" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "True Wireless Earbuds",
+          "image": "/pro4.jpg",
+          "color": "#0E6655",
+          "rating": 4,
+          "price": 1299,
+          "originalPrice": 2499,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Bluetooth 5.2, low latency mode" },
+            { "subHead": "Battery Life", "specText": "6 hrs earbuds + 24 hrs charging case" },
+            { "subHead": "Driver Size", "specText": "10mm dynamic drivers" },
+            { "subHead": "Water Resistance", "specText": "IPX5 sweat and water resistant" },
+            { "subHead": "Charging", "specText": "USB-C, supports wireless charging case" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "type": "card-featured",
+      "id": 25,
+      "name": "Premium Wireless Earphones",
+      "title": "Up to 75% Off | Headphones",
+      "image": "/earpod.jpg",
+      "color": "#F39C12",
+      "rating": 5,
+      "price": 1999,
+      "originalPrice": 7999,
+      "specs": [
+        { "subHead": "Connectivity", "specText": "Bluetooth 5.2, multipoint pairing (2 devices)" },
+        { "subHead": "Battery Life", "specText": "8 hrs earbuds + 32 hrs charging case" },
+        { "subHead": "Driver Size", "specText": "12mm dynamic drivers with bass boost" },
+        { "subHead": "Noise Cancellation", "specText": "Hybrid ANC + transparency mode" },
+        { "subHead": "Water Resistance", "specText": "IPX4 rated" },
+        { "subHead": "Charging", "specText": "USB-C + wireless Qi charging" },
+        { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+      ],
+      "cta": "See more.."
+    },
+    {
+      "type": "card",
+      "title": "Bulk order discounts + Up to 18% GST savings",
+      "products": [
+        {
+          "id": 26,
+          "name": "Up to 45% off | Laptops",
+          "image": "/Laptops_186_116_10._SY116_CB777673831_.jpg",
+          "color": "#2471A3",
+          "rating": 4,
+          "price": 34999,
+          "originalPrice": 64999,
+          "specs": [
+            { "subHead": "Processor", "specText": "Intel Core i5 12th Gen, up to 4.4GHz" },
+            { "subHead": "RAM", "specText": "8GB DDR4, expandable to 16GB" },
+            { "subHead": "Storage", "specText": "512GB NVMe SSD" },
+            { "subHead": "Display", "specText": "15.6 inch FHD IPS, 60Hz" },
+            { "subHead": "Battery", "specText": "45Whr, up to 8 hours usage" },
+            { "subHead": "Warranty", "specText": "1 year onsite warranty" }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Up to 60% off | Kitchen Appliances",
+          "image": "/KitchenAppliances_186_116_10._SY116_CB777673831_.jpg",
+          "color": "#E67E22",
+          "rating": 4,
+          "price": 2499,
+          "originalPrice": 5999,
+          "specs": [
+            { "subHead": "Type", "specText": "Multi-function hand blender with chopper" },
+            { "subHead": "Power", "specText": "700W motor" },
+            { "subHead": "Speed Settings", "specText": "2 speeds + turbo boost" },
+            { "subHead": "Material", "specText": "Food-grade stainless steel blade" },
+            { "subHead": "Cord Length", "specText": "1.5 metres" },
+            { "subHead": "Warranty", "specText": "2 years manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Min 50% off | Office Chairs",
+          "image": "/OfficeChairs_186_116_10._SY116_CB777673831_.jpg",
+          "color": "#1E8449",
+          "rating": 3,
+          "price": 4999,
+          "originalPrice": 10999,
+          "specs": [
+            { "subHead": "Back Support", "specText": "High back mesh with lumbar support cushion" },
+            { "subHead": "Seat Material", "specText": "Breathable mesh fabric" },
+            { "subHead": "Adjustable", "specText": "Height adjustable gas lift, 45–55 cm range" },
+            { "subHead": "Armrests", "specText": "Adjustable padded armrests" },
+            { "subHead": "Weight Capacity", "specText": "Up to 110 kg" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Register using GST, Udyam, FSSAI or BPAN",
+          "image": "/ABdelivery_186_116._SY116_CB776314701_.jpg",
+          "color": "#2C3E50",
+          "rating": 4,
+          "price": 0,
+          "originalPrice": 0,
+          "specs": [
+            { "subHead": "Benefit", "specText": "Claim up to 18% GST input tax credit on purchases" },
+            { "subHead": "Eligible For", "specText": "GST registered businesses, Udyam, FSSAI, BPAN holders" },
+            { "subHead": "Savings", "specText": "Business exclusive pricing on bulk orders" },
+            { "subHead": "Delivery", "specText": "Priority dispatch with dedicated B2B support" },
+            { "subHead": "Returns", "specText": "Extended 30-day return window for business accounts" },
+            { "subHead": "Support", "specText": "Dedicated account manager for orders above ₹50,000" }
+          ]
+        },
+        {
+          "id": 101,
+          "name": "Gaming Headset with RGB",
+          "image": "/pro3.jpg",
+          "color": "#7D3C98",
+          "rating": 5,
+          "price": 1999,
+          "originalPrice": 3499,
+          "specs": [
+            { "subHead": "Connectivity", "specText": "Wired USB + 3.5mm dual jack" },
+            { "subHead": "Driver Size", "specText": "50mm neodymium drivers" },
+            { "subHead": "Surround Sound", "specText": "7.1 virtual surround sound" },
+            { "subHead": "Microphone", "specText": "Detachable flexible boom mic with noise filter" },
+            { "subHead": "Lighting", "specText": "RGB ear cup lighting with 7 colour modes" },
+            { "subHead": "Warranty", "specText": "1 year manufacturer warranty" }
+          ]
+        }
+      ],
+      "cta": "See more.."
+    }
+  ]
+}

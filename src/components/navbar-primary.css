@@ -1,0 +1,236 @@
+/* ══════════════════════════════
+           NAVBAR — PRIMARY
+        ══════════════════════════════ */
+        .navbar-primary {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            flex-direction: row;
+            border: 2px solid black;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(15, 25, 30);
+            font-family: 'Roboto', Arial, sans-serif;
+            color: white;
+            font-size: 14px;
+            font-weight: bolder;
+        }
+        .brand-logo {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .brand-logo-img {
+            height: 90%;
+            width: auto;
+            object-fit: contain;
+        }
+        .delivery-address {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .delivery-address-icon {
+            display: flex;
+        }
+        .delivery-address-icon-img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            display: block;
+        }
+        .delivery-address-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .delivery-address-info {
+            align-items: center;
+        }
+        .delivery-address-label,
+        .account-label,
+        .orders-label {
+            font-size: 12px;
+            color: #CCCCCC;
+            margin-bottom: 2px;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            min-width: 0;
+            margin-left: 8px;
+        }
+        .search-category-select {
+            height: 40px;
+            width: 50px;
+            flex-shrink: 0;
+            background-color: rgb(239, 239, 239);
+        }
+        .search-input {
+            flex: 1;
+            height: 40px;
+            min-width: 0;
+        }
+        .search-btn {
+            display: flex;
+            align-items: center;
+            height: 40px;
+            width: 50px;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            background-color: #FEBD69;
+        }
+        .search-btn img {
+            max-width: 30px;
+            max-height: 30px;
+            object-fit: contain;
+        }
+        .language-selector {
+            display: flex;
+            width: 60px;
+            margin-right: 10px;
+            margin-top: 20px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: baseline;
+            margin-left: 10px;
+            flex-shrink: 0;
+            position: relative;
+            cursor: pointer;
+        }
+        .lang-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            color: black;
+            z-index: 999;
+            width: 150px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            cursor: pointer;
+        }
+        .lang-dropdown p{
+            border: 1px solid black;
+            background-color: white;
+            width: 50%;
+        }
+        .language-flag {
+            display: flex;
+            align-items: center;
+            height: 20px;
+            margin: 0;
+            padding: 0;
+            flex-shrink: 0;
+        }
+        .language-flag img {
+            max-width: 40%;
+            max-height: 70%;
+            object-fit: contain;
+        }
+        .account-wrapper {
+            padding: 0 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-shrink: 0;
+            text-align: center;
+            position: relative;
+        }
+        .profile-dropdown{
+            position: absolute;
+            top: 100%;
+            left: 20%;
+        }
+        .account-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+        }
+        .cart-btn {
+            display: flex;
+            flex-direction: row;
+            width: 80px;
+            margin-left: 10px;
+            border: none;
+            background-color: transparent;
+        }
+        .cart-icon {
+            width: 100%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cart-icon img {
+            width: 46%;
+            display: inline-block;
+            position: relative;
+        }
+        .cart-count {
+            position: absolute;
+            color: #F3A847;
+            font-family: 'Roboto', Arial, sans-serif;
+            font-weight: bolder;
+        }
+        .dropdown-arrow {
+            color: #CCCCCC;
+            font-size: 10px;
+        }
+        .Signin{
+            font-size: 15px;
+            margin: 10px;
+            border: 1px solid grey;
+            padding: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            text-underline-offset: none;
+        }
+     @media screen and (max-width: 1024px) {
+
+        /* Navbar */
+        .delivery-address-icon,
+        .delivery-address-wrapper,
+        .language-selector,
+        .account-wrapper,
+        .orders-wrapper,
+        .navbar-secondary-wrapper,
+        .search-category-select {
+            display: none;
+        }
+        .navbar-primary {
+            overflow: hidden;
+        }
+        .brand-logo {
+            height: 60%;
+            margin-left: 2px;
+        }
+        .cart-btn {
+            margin: 0;
+        }
+        .search-bar {
+            margin: 0;
+        }
+           .orders-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+    }
+
+    .orders-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+.Signin{
+            font-size: 13px;
+            border: 1px solid grey;
+            padding: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            text-underline-offset: none;
+        }
