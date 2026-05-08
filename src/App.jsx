@@ -31,6 +31,11 @@ function App() {
   const location = useLocation()
   const authRoutes = ['/signin', '/signup']
   const isAuthPage = authRoutes.includes(location.pathname)
+  function scrollTOpwindow(){
+    window.scrollTo({
+  top: 0,
+  behavior: "smooth"
+});}
   
   return (
     
@@ -105,7 +110,7 @@ function App() {
 
       {/* MAIN CONTENT */}
 
-      <div className="back-to-top">Back to top</div>
+      <div onClick={scrollTOpwindow} className="back-to-top">Back to top</div>
 
         {/* FOOTER */}
       <Footer />
