@@ -59,6 +59,7 @@
         .orders-text{
             text-decoration: none;
             text-underline-offset: none;
+            text-decoration-line: none;
             color: #CCCCCC;
         }
         .search-bar {

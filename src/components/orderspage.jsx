@@ -8,12 +8,16 @@ export function OrdersPage() {
   //const orders = JSON.parse(localStorage.getItem('orders') || '[]')
   const currentYear = new Date().getFullYear();
   const navigate=useNavigate()
+  const userEmail=localStorage.getItem('userEmail')
+  console.log(userEmail)
   const allproducts=data.cards.flatMap((item)=>item.products || [])
   useEffect(() => {
-  fetch('https://amazon-clone-backend-s4ui.onrender.com/orders')
+    const userEmail=localStorage.getItem('userEmail')
+     console.log('userEmail is:', userEmail)
+  fetch('https://amazon-clone-backend-s4ui.onrender.com/orders?email=${userEmail}')
     .then(res => res.json())
     .then(data => {
-      console.log(data);
+      console.log('order received from backend',data);
       setOrders(data);
     });
 }, []);

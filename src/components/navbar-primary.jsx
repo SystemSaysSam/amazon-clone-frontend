@@ -5,10 +5,10 @@ import { useNavigate } from 'react-router-dom';
 export function NavbarPrimary({counter}){
     const [userName, setUserName] = useState('');
     const [addforNav,setAddForNav]= useState('No Location')
+    const [userEmail, setUserEmail] = useState(localStorage.getItem('userEmail'));
     const [pincode,SetPincode]=useState('')
     const [langOpen, setLangOpen] = useState(false)
     const [profileOption, setProfileOption] = useState(false)
-    const userEmail = localStorage.getItem('userEmail')
     const [loginState,setloginState]=useState(()=>{
       return userEmail?'SignOut':'SignIn'
     })
@@ -22,10 +22,23 @@ export function NavbarPrimary({counter}){
       setAddForNav(user.address.replace(/^(.{12}).+/, '$1...')) 
       SetPincode(user.pincode)
     }
+        useEffect(() => {
+        // Listen for localStorage changes (even from other components/pages)
+        const handleStorageChange = () => {
+            const email = localStorage.getItem('userEmail');
+            setUserEmail(email);
+            setloginState(email ? 'SignOut' : 'SignIn');
+        };
+        window.addEventListener('storage', handleStorageChange);
+        
+        return () => window.removeEventListener('storage', handleStorageChange);
+    }, []);
+
     useEffect(() => {
-        showName();
-        }, []);
-    
+        if(userEmail) {
+            showName();
+        }
+    }, [userEmail]);
     return (
         <div className="navbar-primary">
           <Link to='/'  className="brand-logo">
@@ -85,7 +98,7 @@ export function NavbarPrimary({counter}){
             setProfileOption(!profileOption)
           }}>
           <div className="account-info">
-            <div className="account-label">Hello user</div>
+            <div className="account-label">Hello {userName}</div>
             <div className="account-dropdown">Accounts &amp; Lists <span className="dropdown-arrow">&#9660;</span>
             {profileOption && 
           (
@@ -111,6 +124,7 @@ export function NavbarPrimary({counter}){
           }
           if(loginState==='SignOut'){
             localStorage.removeItem('userEmail')
+            setUserEmail(null);
             Navigate('/signout')
             setloginState('SignIn')
           }

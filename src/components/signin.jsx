@@ -25,6 +25,7 @@ async function  handleLoginRequest(){
 
     toast.success("Login Successful");
     navigate('/');
+    localStorage.setItem('userEmail', email);
  }
     function navigateToSignup(){
         navigate('/signup')

@@ -12,7 +12,7 @@ export function useUserBuys(){
         }
     }, []) 
     function handleBuyClick(product) {
-                    navigate('/BuyPage')
+                    navigate('/paymentsuccess')
                     localStorage.setItem('broughtPID',product.id)
             }
     async function placeorder(product){
@@ -25,7 +25,7 @@ export function useUserBuys(){
             Orderdate: new Date().toDateString(),
             status: 'Order Placed'
         }
-        const res = await fetch('https://amazon-clone-backend-s4ui.onrender.com/orders',{
+        const res = await fetch(`https://amazon-clone-backend-s4ui.onrender.com/orders?email=${user}`,{
             method:"POST",
             headers: {
                 'Content-Type' : 'application/json'
@@ -53,13 +53,14 @@ export function useUserBuys(){
         try{
             const requests=products.map((product)=>{
                 const newOrder={
+                email:user,
                 productid:product.id,
                 ordernum:Math.floor(Math.random()*10000)+1000000,
                 Orderdate: new Date().toDateString(),
                 status: 'Order Placed'
                     }
    
-                return fetch('https://amazon-clone-backend-s4ui.onrender.com/orders',{
+                return fetch('https://amazon-clone-backend-s4ui.onrender.com/orders?email=${userEmail}',{
                     method:"POST",
                     headers :{
                         'Content-type':'application/json'
