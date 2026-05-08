@@ -43,7 +43,7 @@ function App() {
      <ScrollToTop />
       {!isAuthPage && <NavbarPrimary counter={counter}/>}
       {/* NAVBAR SECONDARY */}
-      {!isAuthPage && <NavbarSecondary />}
+  
 
 
       <Routes>

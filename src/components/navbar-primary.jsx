@@ -59,7 +59,7 @@ export function NavbarPrimary({counter}){
             <option value="computers">Computers &amp; Accessories</option>
             <option value="mobile">Mobiles &amp; Accessories</option>
           </select>
-          <input className="search-input" placeholder="Search About Any Product" />
+          <input className="search-input" placeholder=" Search About Any Product" />
           <div>
             <button className="search-btn"><img src="/searchIcon.png" alt="Search" /></button>
           </div>
@@ -116,6 +116,9 @@ export function NavbarPrimary({counter}){
           }
           
         }}>{loginState}</div>
+        <div className="more-option">
+          More Options &#9660;
+        </div>
         <div>
           <button className="cart-btn">
             <Link to="CartPage">

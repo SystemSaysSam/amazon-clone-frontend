@@ -56,6 +56,11 @@
             color: #CCCCCC;
             margin-bottom: 2px;
         }
+        .orders-text{
+            text-decoration: none;
+            text-underline-offset: none;
+            color: #CCCCCC;
+        }
         .search-bar {
             display: flex;
             align-items: center;
@@ -190,9 +195,15 @@
             color: white;
             text-underline-offset: none;
         }
+        .more-option{
+            display: none;
+        }
      @media screen and (max-width: 1024px) {
 
         /* Navbar */
+        .Signin,
+        .orders-wrapper,
+        .search-btn,
         .delivery-address-icon,
         .delivery-address-wrapper,
         .language-selector,
@@ -209,28 +220,22 @@
             height: 60%;
             margin-left: 2px;
         }
-        .cart-btn {
+        .cart-btn img,.cart-icon,.cart-btn {
             margin: 0;
+            height: auto;
         }
         .search-bar {
             margin: 0;
         }
-           .orders-wrapper a {
-  text-decoration: none;
-  color: inherit;
-}
-    }
-
-    .orders-wrapper a {
-  text-decoration: none;
-  color: inherit;
-}
-.Signin{
-            font-size: 13px;
-            border: 1px solid grey;
-            padding: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            color: white;
-            text-underline-offset: none;
+           .orders-text,.orders-label,.orders-wrapper{
+            display: none;
         }
+        .search-input{
+            border-radius: 10px;
+        }
+        .more-option{
+            margin-left: 5px;
+            display: block;
+            font-size: 12px;
+        }
+}
