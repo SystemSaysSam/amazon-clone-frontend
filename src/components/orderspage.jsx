@@ -13,8 +13,10 @@ export function OrdersPage() {
   const allproducts=data.cards.flatMap((item)=>item.products || [])
   useEffect(() => {
     const userEmail=localStorage.getItem('userEmail')
-     console.log('userEmail is:', userEmail)
-  fetch('https://amazon-clone-backend-s4ui.onrender.com/orders?email=${userEmail}')
+    const url = `https://amazon-clone-backend-s4ui.onrender.com/orders?email=${userEmail}`
+  console.log('URL:', url) // 👈 copy this exact URL and open in browser
+     console.log('userEmail is:', JSON.stringify(userEmail))
+  fetch(`https://amazon-clone-backend-s4ui.onrender.com/orders?email=${userEmail}`)
     .then(res => res.json())
     .then(data => {
       console.log('order received from backend',data);

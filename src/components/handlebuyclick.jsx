@@ -16,6 +16,8 @@ export function useUserBuys(){
                     localStorage.setItem('broughtPID',product.id)
             }
     async function placeorder(product){
+        console.log('user email:', user)        // 👈 is email here?
+        console.log('product:', product) 
         try {
             SetLoading(true)
             const newOrder={
@@ -25,6 +27,7 @@ export function useUserBuys(){
             Orderdate: new Date().toDateString(),
             status: 'Order Placed'
         }
+        console.log('newOrder being sent:', newOrder) 
         const res = await fetch(`https://amazon-clone-backend-s4ui.onrender.com/orders`,{
             method:"POST",
             headers: {
@@ -32,6 +35,9 @@ export function useUserBuys(){
             },
             body: JSON.stringify(newOrder)
         })
+        const data = await res.json()
+        console.log('server response:', data)
+        
         if (!res.ok) {
             throw new Error("Server error");
         }

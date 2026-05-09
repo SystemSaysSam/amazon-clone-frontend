@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Data from '../data/cardsdata.json' 
 import './navbar-primary.css'
 import { Link, Navigate } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
@@ -7,12 +8,25 @@ export function NavbarPrimary({counter}){
     const [addforNav,setAddForNav]= useState('No Location')
     const [userEmail, setUserEmail] = useState(localStorage.getItem('userEmail'));
     const [pincode,SetPincode]=useState('')
+    const [SearchQuery, setSearchQuery] = useState('')
+    const Navigate = useNavigate();
+
+
+    function handleProductClick(product) {
+        Navigate('/ProductPage', { state: product })
+    }
+    // flatten all products
+    const allProducts = Data.cards.flatMap(card => card.products || [])
+
+    // filter
+    const filtered = allProducts.filter(product =>
+        product.name?.toLowerCase().includes((SearchQuery || '').toLowerCase())
+    )
     const [langOpen, setLangOpen] = useState(false)
     const [profileOption, setProfileOption] = useState(false)
     const [loginState,setloginState]=useState(()=>{
       return userEmail?'SignOut':'SignIn'
     })
-    const Navigate=useNavigate();
     // truncate to first 20 characters and add ...
     
     async function showName(){
@@ -56,25 +70,21 @@ export function NavbarPrimary({counter}){
           </div>
         </div>
         <div className="search-bar">
-          <select className="search-category-select" name="categories" id="categories">
-            <option value="all">All</option>
-            <option value="electronics">Electronics</option>
-            <option value="fashion">Clothing &amp; Fashion</option>
-            <option value="home">Home &amp; Kitchen</option>
-            <option value="beauty">Beauty &amp; Personal Care</option>
-            <option value="books">Books</option>
-            <option value="toys">Toys &amp; Games</option>
-            <option value="sports">Sports &amp; Outdoors</option>
-            <option value="grocery">Grocery &amp; Gourmet Foods</option>
-            <option value="automotive">Automotive</option>
-            <option value="health">Health &amp; Household</option>
-            <option value="baby">Baby Products</option>
-            <option value="computers">Computers &amp; Accessories</option>
-            <option value="mobile">Mobiles &amp; Accessories</option>
-          </select>
-          <input className="search-input" placeholder=" Search About Any Product" />
-          <div>
-            <button className="search-btn"><img src="/searchIcon.png" alt="Search" /></button>
+          <div className="search-input-wrapper">
+            <input onChange={(e) => setSearchQuery(e.target.value)}  className="search-input" placeholder=" Search About Any Product" />
+            {SearchQuery && (
+            <div className="search-results">
+                {filtered.map((product) => (
+                    <div className="search-result-item" key={product.id} onClick={() =>{
+                      setSearchQuery('')
+                      handleProductClick(product)
+                    } }>
+                        <img src={product.image} alt={product.name} />
+                        <div className="search-result-item-name">{product.name}</div>
+                    </div>
+                ))}
+            </div>
+        )}
           </div>
         </div>
         <div className="language-selector">

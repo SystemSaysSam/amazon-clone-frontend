@@ -2,7 +2,7 @@ import './cards-grid.css'
 import Data from '../data/cardsdata.json'
 import { useNavigate } from "react-router-dom";
 import { useState } from 'react';
-export function CardsGrid(){
+export function CardsGrid({SearchQuery}){
     const navigate = useNavigate();
     function handleProductClick(product) {
                     navigate('/ProductPage', { state: product })
@@ -24,9 +24,11 @@ export function CardsGrid(){
         setIndex(index - 1);
       }
     }
-      const [index,setIndex]=useState(0)
+    const [index,setIndex]=useState(0)
     return (
         <div className="home">
+
+
              <div className="corouselbox">
                 <div className="corouselmover" style={{transform:`translateX(-${index*100}%)`}}>
                 {images.map((image,i)=>(
