@@ -25,7 +25,7 @@ export function useUserBuys(){
             Orderdate: new Date().toDateString(),
             status: 'Order Placed'
         }
-        const res = await fetch(`https://amazon-clone-backend-s4ui.onrender.com/orders?email=${user}`,{
+        const res = await fetch(`https://amazon-clone-backend-s4ui.onrender.com/orders`,{
             method:"POST",
             headers: {
                 'Content-Type' : 'application/json'
@@ -60,7 +60,7 @@ export function useUserBuys(){
                 status: 'Order Placed'
                     }
    
-                return fetch('https://amazon-clone-backend-s4ui.onrender.com/orders?email=${userEmail}',{
+                return fetch(`https://amazon-clone-backend-s4ui.onrender.com/orders?email=${user}`,{
                     method:"POST",
                     headers :{
                         'Content-type':'application/json'
