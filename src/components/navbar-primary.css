@@ -320,7 +320,8 @@
             border-radius: 10px;
         }
         .more-option{
-            margin-left: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
             display: block;
             font-size: 24px;
         }
