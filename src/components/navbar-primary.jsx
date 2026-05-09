@@ -9,6 +9,7 @@ export function NavbarPrimary({counter}){
     const [userEmail, setUserEmail] = useState(localStorage.getItem('userEmail'));
     const [pincode,SetPincode]=useState('')
     const [SearchQuery, setSearchQuery] = useState('')
+    const [menuOpen, setMenuOpen] = useState(false)
     const Navigate = useNavigate();
 
 
@@ -140,8 +141,8 @@ export function NavbarPrimary({counter}){
           }
           
         }}>{loginState}</div>
-        <div className="more-option">
-          More Options &#9660;
+        <div className="more-option"  onClick={() => setMenuOpen(true)}>
+          ☰
         </div>
         <div>
           <button className="cart-btn">
@@ -153,6 +154,18 @@ export function NavbarPrimary({counter}){
             </Link>
           </button>
         </div>
+        <div className={`slide-menu ${menuOpen ? 'open' : ''}`}>
+    <button className="close-btn" onClick={() => setMenuOpen(false)}>✕</button>
+    <nav>
+        <Link to='/' onClick={() => setMenuOpen(false)}>Home</Link>
+        <Link to='/orderspage' onClick={() => setMenuOpen(false)}>Orders</Link>
+        <Link to='/CartPage' onClick={() => setMenuOpen(false)}>Cart</Link>
+        <div onClick={() => {
+            setMenuOpen(false)
+            loginState === 'SignIn' ? Navigate('/signin') : Navigate('/signout')
+        }}>{loginState}</div>
+    </nav>
+</div>
       </div>
     )
 }
